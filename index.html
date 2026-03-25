@@ -123,6 +123,7 @@ nav.scrolled{padding:13px 56px;box-shadow:0 2px 28px rgba(0,0,0,.07)}
 @keyframes reelScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
 .reel-frame{
+  cursor: not-allowed !important;
   flex-shrink:0;width:220px;height:150px;overflow:hidden;
   border:3px solid #2a2724;
   position:relative;cursor:pointer;
@@ -526,6 +527,10 @@ footer{background:var(--dark);border-top:1px solid rgba(255,255,255,.06);padding
 .btn-primary{
   padding: 14px 21px;
 }
+.music-section{padding:100px 5px;}
+.vinyl-player{
+  padding: 5px;
+}
 }
 </style>
 </head>
@@ -604,10 +609,11 @@ footer{background:var(--dark);border-top:1px solid rgba(255,255,255,.06);padding
   <div class="film-strip-outer">
     <div class="film-strip-row">
       <div class="film-strip-inner" id="reel1">
-        <div class="reel-frame" onclick="openModal('https://player.vimeo.com/video/1115761410')"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/68b95bf2db16a47758441157_AryaFed.jpeg" alt=""><div class="reel-frame-label">Arya & Federico</div></div>
-        <div class="reel-frame" onclick="openModal('https://player.vimeo.com/video/1120076645')"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/68cd4796ad7681b7b12f4f1f_For%20website%20Images%20.png" alt=""><div class="reel-frame-label">Priya & Akshay</div></div>
-        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/6758563415ee032506577218_anushka.avif" alt=""><div class="reel-frame-label">Anushka & Virat</div></div>
-        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/67585645ee4aa7c4990e27e0_deepika.webp" alt=""><div class="reel-frame-label">Deepika & Ranveer</div></div>
+        <!-- onclick="openModal('https://player.vimeo.com/video/1115761410')" -->
+        <div class="reel-frame" ><img src="https://cdn.shopify.com/s/files/1/0639/3515/2267/files/Destination-Wedding-Samode-Palace-Rajasthan-92.jpg_1.jpg?v=1774431837" alt=""><div class="reel-frame-label">Arya & Federico</div></div>
+        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/68cd4796ad7681b7b12f4f1f_For%20website%20Images%20.png" alt=""><div class="reel-frame-label">Priya & Akshay</div></div>
+        <div class="reel-frame"><img src="https://cdn.shopify.com/s/files/1/0639/3515/2267/files/Destination-Wedding-Samode-Palace-Rajasthan-131_jpg.jpg?v=1774432103" alt=""><div class="reel-frame-label">Anushka & Virat</div></div>
+        <div class="reel-frame"><img src="https://cdn.shopify.com/s/files/1/0639/3515/2267/files/Destination-Wedding-Samode-Palace-Rajasthan-132_jpg.jpg?v=1774432103" alt=""><div class="reel-frame-label">Deepika & Ranveer</div></div>
         <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/6659a59f0182eef84bf27177_Untitleddesign.avif" alt=""><div class="reel-frame-label">Katrina & Vicky</div></div>
         <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/66b0aaa61989b74adb89ed40_W.avif" alt=""><div class="reel-frame-label">Shibani & Farhan</div></div>
         <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/671a4c597870ce9a2ac66362_WEBSITE%20FILM%20COVER%20IMAGES%20-11.webp" alt=""><div class="reel-frame-label">Kiara & Sidharth</div></div>
@@ -638,13 +644,13 @@ footer{background:var(--dark);border-top:1px solid rgba(255,255,255,.06);padding
         <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/66b0ae3bf54a94125185644b_W%20(5).avif" alt=""><div class="reel-frame-label">Pernia & Sahil</div></div>
         <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/672b0835546851ae6e16a9bd_W%20(6).webp" alt=""><div class="reel-frame-label">Ayushi & Shitiz</div></div>
         <!-- duplicate -->
-        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/67585717a0086d57d0deeb69_tuisha.webp" alt=""><div class="reel-frame-label">Tuisha & Gaurav</div></div>
+        <div class="reel-frame"><img src="https://cdn.shopify.com/s/files/1/0639/3515/2267/files/Destination-Wedding-Samode-Palace-Rajasthan-92.jpg_1.jpg?v=1774431837" alt=""><div class="reel-frame-label">Tuisha & Gaurav</div></div>
         <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/67122e5d8bbe2388db4952a7_Website-2.webp" alt=""><div class="reel-frame-label">Faiz & Fajr</div></div>
-        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/67583eb8e2f85f5b2d078b6c_YT%20Thumbnail%20-2.jpg" alt=""><div class="reel-frame-label">Ridhi & Raj</div></div>
-        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/6758550dfc8360bd9c198304_heartbeats%20.avif" alt=""><div class="reel-frame-label">Heartbeats</div></div>
+        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/671601ecffdb4e8b9ae8df39_Website.webp" alt=""><div class="reel-frame-label">Ridhi & Raj</div></div>
+        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/672b0835546851ae6e16a9bd_W%20(6).webp" alt=""><div class="reel-frame-label">Heartbeats</div></div>
         <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/671601ecffdb4e8b9ae8df39_Website.webp" alt=""><div class="reel-frame-label">Dhrisha & Arun</div></div>
-        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/67584d8d8d35a17242d83e71_anita.avif" alt=""><div class="reel-frame-label">Anita & Colm</div></div>
-        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/66b0ae3bf54a94125185644b_W%20(5).avif" alt=""><div class="reel-frame-label">Pernia & Sahil</div></div>
+        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/672b0835546851ae6e16a9bd_W%20(6).webp" alt=""><div class="reel-frame-label">Anita & Colm</div></div>
+        <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/66b0ae3bf54a94125185644b_W%20(5).avifhttps://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/671601ecffdb4e8b9ae8df39_Website.webp" alt=""><div class="reel-frame-label">Pernia & Sahil</div></div>
         <div class="reel-frame"><img src="https://cdn.prod.website-files.com/658138cfb5ff0b77ba94f1a6/672b0835546851ae6e16a9bd_W%20(6).webp" alt=""><div class="reel-frame-label">Ayushi & Shitiz</div></div>
       </div>
     </div>
